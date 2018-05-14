@@ -6,7 +6,7 @@
 /*   By: mallard <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/17 15:43:20 by mallard           #+#    #+#             */
-/*   Updated: 2017/07/10 00:45:45 by mallard          ###   ########.fr       */
+/*   Updated: 2017/10/04 16:30:41 by mallard          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,5 +97,6 @@ char			**ft_newtab(int size);
 void			ft_tabdel(char **tab);
 char			**ft_add_str_to_tab(char **tab, char *str, int free);
 int				ft_tablen(char **tab);
+char			**ft_split(char const *s);
 
 #endif

@@ -6,7 +6,7 @@
 #    By: mallard <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/07/10 05:47:23 by mallard           #+#    #+#              #
-#    Updated: 2017/07/10 05:50:15 by mallard          ###   ########.fr        #
+#    Updated: 2017/10/04 16:30:55 by mallard          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,7 +32,7 @@ SRC = ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c ft_memmove.c \
 	  ft_lstdel.c ft_lstiter.c ft_lstmap.c ft_lstaddend.c ft_swap.c \
 	  ft_foreach.c ft_strcount.c ft_lstsize.c ft_strjoin_f.c ft_lstresearch.c \
 	  get_next_line.c ft_print_tab.c ft_newtab.c ft_tablen.c ft_tabdel.c \
-	  ft_add_str_to_tab.c
+	  ft_add_str_to_tab.c ft_split.c
 
 OBJ = $(SRC:.c=.o)
 
